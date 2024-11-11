@@ -41,7 +41,7 @@
     <div class="img">
       <img
         id="imgOne"
-        :src="require('@/assets/images/imageSticker-2d.png')"
+        :src="require('@/assets/images/imageSticker2.png')"
         alt="Description"
       />
     </div>
@@ -65,7 +65,7 @@
       </h3>
       <img
         id="imgOne"
-        :src="require('@/assets/images/imageSticker.png.png')"
+        :src="require('@/assets/images/imageSticker.png')"
         alt="Description"
       />
       <p id="proj-inflex">

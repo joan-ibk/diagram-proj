@@ -10,7 +10,6 @@
         <button id="shaped">diagram.com</button>
       </div>
     </div>
-
     <div class="con-info">
       <button><i class="fas fa-user-group"></i>5 members</button>
       <button><i class="fa-solid fa-laptop"></i>Remote</button>
