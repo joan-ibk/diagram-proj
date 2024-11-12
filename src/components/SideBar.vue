@@ -457,6 +457,7 @@ export default {
   border: 1px solid #e5e5e5;
   background: #fff;
   color: #111111;
+  font-size: 15px;
 }
 
 .links {
