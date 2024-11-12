@@ -46,20 +46,32 @@ button {
 
 .con-flex {
   display: flex;
-  gap: 1.5rem;
+  gap:1.2rem; /* Reduced gap to bring items closer */
   align-items: center;
   max-width: 100%;
-  /* padding: 0 1rem; */
-  /* text-align: left; */
+  padding: 0; /* Ensure no extra padding */
+  margin: 0; /* Ensure no extra margin */
 }
 
 .con-inflex {
   display: flex;
   flex-direction: column;
-  /* gap: 0.3rem; */
+  line-height: 2; /* Adjust line-height to reduce spacing between text lines */
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin: 0; /* Remove default margin */
+  line-height: 1.2; /* Adjust to reduce spacing */
+}
+
+p {
+  margin: 0; /* Remove any default margin */
 }
 
 #shaped {
+  margin-top: 4px; /* Add minimal space between button and text */
   border-radius: 15px;
   height: 30px;
   width: 120px;
@@ -98,6 +110,7 @@ button {
   .con-flex {
    
     gap: 1rem;
+    margin-top: 10px;
   }
 
   h1 {
@@ -120,9 +133,7 @@ button {
     height: 80px;
   }
 
-  h1 {
-    font-size: 1.2rem;
-  }
+  
 
   .con-info button {
     font-size: 0.8rem;

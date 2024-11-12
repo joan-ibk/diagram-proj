@@ -164,6 +164,7 @@ export default {
   color: #111111;
   font-size: 14px;
   font-weight: 400;
+  line-height: 24px;
 }
 /* .proj-layer {
   padding: 20px;

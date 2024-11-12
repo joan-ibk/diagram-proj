@@ -381,6 +381,7 @@ export default {
   position: relative;
   left: 0;
   padding: 10px;
+  width: 350px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -496,7 +497,7 @@ export default {
   }
   .hamburger-menu {
     display: block;
-    left: 550px; /* Adjust the position to the right */
+    left: 480px; /* Adjust the position to the right */
     top: 40px; /* Adjust the top position */
   }
   .nav {

@@ -30,101 +30,98 @@
         public and push forward the field as a whole where we can.
       </p>
     </div>
-   
+
     <div class="design-footer">
-        <div class="design">
-      <h3>What design tools do you use day to day?</h3>
-      <ul>
-        <li><a href="#">Figma</a></li>
-        <li><a href="#">Automator</a></li>
-        <li><a href="#">Magician</a></li>
-      </ul>
-    </div>
-    <div class="footer">
-      <h3>What does your stack look like?</h3>
-      <h4>Web</h4>
-      <p>We ❤️ Typescript</p>
-      <ul>
-        <li> <a href="#">React + Next.js</a> </li>
-        <li> <a href="#">Tailwind</a> </li>
-        <li> <a href="#">GraphQL</a> </li>
-        <li> <a href="#">Node + Express + RPC</a> </li>
-      </ul>
-      <h4>Mobile</h4>
-      <ul>
-        <li>Swift + SwiftUI</li>
-      </ul>
-      <h4>Infrastructure</h4>
-      <ul>
-        <li> <a href="#">AWS</a> </li>
-        <li> <a href="#">Vercel</a> </li>
-        <li> <a href="#">Modal</a> </li>
-      </ul>
-      <h4>ML</h4>
-      <ul>
-        <li>pytorch</li>
-        <li>weights&biases</li>
-        <li>🤗 hub / datasets / diffusers</li>
-      </ul>
-    </div>
+      <div class="design">
+        <h3>What design tools do you use day to day?</h3>
+        <ul>
+          <li><a href="#">Figma</a></li>
+          <li><a href="#">Automator</a></li>
+          <li><a href="#">Magician</a></li>
+        </ul>
+      </div>
+      <div class="footer">
+        <h3>What does your stack look like?</h3>
+        <h4>Web</h4>
+        <p>We ❤️ Typescript</p>
+        <ul>
+          <li><a href="#">React + Next.js</a></li>
+          <li><a href="#">Tailwind</a></li>
+          <li><a href="#">GraphQL</a></li>
+          <li><a href="#">Node + Express + RPC</a></li>
+        </ul>
+        <h4>Mobile</h4>
+        <ul>
+          <li>Swift + SwiftUI</li>
+        </ul>
+        <h4>Infrastructure</h4>
+        <ul>
+          <li><a href="#">AWS</a></li>
+          <li><a href="#">Vercel</a></li>
+          <li><a href="#">Modal</a></li>
+        </ul>
+        <h4>ML</h4>
+        <ul>
+          <li>pytorch</li>
+          <li>weights&biases</li>
+          <li>🤗 hub / datasets / diffusers</li>
+        </ul>
+      </div>
     </div>
     <div class="last-link">
-        <a href="#">Share</a>
+      <a href="#">Share</a>
     </div>
   </div>
-    
- 
 </template>
 
 
 <style scoped>
-.build-main{
-    padding: 20px;
+.build-main {
+  padding: 20px;
 }
-.build-flex{
-    width:550px;
-    line-height: 22px;
-}
-.design-footer{
-    position: relative;
-    /* left: -8.5%; */
-}
-.footer{
-    margin-top: 50px;
-}
-a{
-    text-decoration: none;
-    line-height: 30px;
+.build-flex {
+  width: 550px;
+  line-height: 25px;
   font-size: 14px;
+}
+.design-footer {
+  position: relative;
+  font-size: 14px;
+  /* left: -8.5%; */
+}
+.footer {
+  margin-top: 50px;
+}
+a {
+  text-decoration: none;
   color: #111111;
 }
-p{
-    color: #111111;
+p {
+  color: #111111;
   font-size: 14px;
   font-weight: 400;
 }
-h3{
-    color: #111111;
-  font-size: 17px;
+h3 {
+  color: #111111;
+ 
   font-weight: 500;
 }
-li{
+li {
   list-style: none;
   line-height: 30px;
   font-size: 14px;
-  color: #111111;
+ 
 }
-.last-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.last-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-@media only screen and (max-width: 600px){
-
-.build-main{
+@media only screen and (max-width: 600px) {
+  .build-main {
     margin-left: auto;
-}
+  }
+ 
 }
 </style>
