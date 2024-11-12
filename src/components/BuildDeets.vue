@@ -122,6 +122,11 @@ li {
   .build-main {
     margin-left: auto;
   }
- 
+ .build-deets{
+    width: 400px;
+ }
+ .design-footer {
+    width: 400px;
+}
 }
 </style>
