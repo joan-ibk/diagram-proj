@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="header">
     <div class="con-flex">
       <div class="con-image">
         <img :src="require('@/assets/images/img1.svg')" alt="Description" />
@@ -22,6 +22,10 @@
 
 
 <style scoped >
+img {
+  width: 92px;
+  height: 92px;
+}
 h1 {
   font-weight: 400;
   line-height: 26px;
@@ -32,10 +36,6 @@ h1 {
 p,
 button {
   color: #555555;
-}
-
-.container {
-  margin: 40px;
 }
 .con-flex {
   display: flex;
@@ -59,8 +59,7 @@ button {
   margin-top: 30px;
   width: 540px;
   height: 72px;
-  gap: 0px;
-  opacity: 0px;
+  margin-bottom: 30px;
 }
 .con-info button {
   padding: 8px;
@@ -73,16 +72,15 @@ button {
 
 @media only screen and (max-width: 600px) {
   .con-flex {
-    padding: 5px;
-    width: 400px;
-   
+    margin-left: 40px;
+    /* width: 400px; */
+    padding: 10px;
   }
   .con-info {
     /* display: flex; */
-    width:500px;
+    width: 500px;
     margin-left: 30px;
     padding-left: 30px;
   }
- 
 }
 </style>

@@ -351,10 +351,13 @@ export default {
   position: absolute;
   left: 0%;
 }
+
 .hamburger-menu {
   display: none;
   flex-direction: column;
   cursor: pointer;
+  position: absolute; /* Position it absolutely */
+  top: 20px; /* Adjust the distance from the top edge */
 }
 
 .hamburger-menu .line {
@@ -376,7 +379,6 @@ export default {
   flex-direction: column;
   background-color: #fff;
   position: relative;
-  /* top: 60px; */
   left: 0;
   padding: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -390,7 +392,6 @@ export default {
 
 .side-bar ul button {
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   outline: none;
   border: none;
@@ -402,10 +403,10 @@ export default {
   width: Fixed (330px) px;
   height: Fixed (693px) px;
   left: -12px;
-  padding: 280.63px 36px 96px 36px;
-  gap: 0px;
-  opacity: 0px;
+  padding: 180.63px 36px 96px 36px;
+  
 }
+
 .side ul {
   list-style: none;
   padding: 0;
@@ -445,11 +446,12 @@ export default {
   height: 24px;
   fill: #555;
 }
+
 .create-profile {
   width: 250px;
   height: 50px;
   top: 160px;
-cursor:pointer;
+  cursor: pointer;
   border-radius: 20px;
   border: 1px solid #e5e5e5;
   background: #fff;
@@ -458,18 +460,17 @@ cursor:pointer;
 
 .links {
   display: flex;
-  flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
-  gap: 5px; /* Adds spacing between the links */
-  justify-content: center; /* Centers the links horizontally */
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
   margin-top: 20px;
 }
 
 .links a {
-  flex: 1 1 calc(33.33% - 10px); /* Each link takes about 1/3 of the row minus the gap */
+  flex: 1 1 calc(33.33% - 10px);
   text-align: center;
   padding: 6px;
   color: #999999;
-
   text-decoration: none;
   border-radius: 4px;
   box-sizing: border-box;
@@ -495,14 +496,20 @@ cursor:pointer;
   }
   .hamburger-menu {
     display: block;
-    margin-left: 49px;
+    left: 450px; /* Adjust the position to the right */
+    top: 20px; /* Adjust the top position */
   }
   .nav {
     width: 100px;
     height: 100px;
     border: none;
-    position: absolute;
-    left: 0%;
   }
+  .side-bar.is-active {
+  
+  position: relative;
+ 
+  top: 60px;
+  
+}
 }
 </style>

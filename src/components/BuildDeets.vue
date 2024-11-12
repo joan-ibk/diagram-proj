@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="build-main">
     <div class="build-flex">
       <h3>What is the product you’re building?</h3>
       <p>
@@ -68,19 +68,25 @@
       </ul>
     </div>
     </div>
-    <a href="#">Share</a>
+    <div class="last-link">
+        <a href="#">Share</a>
+    </div>
   </div>
 </template>
 
 
 <style>
+.build-main{
+    margin: 40px;
+   
+}
 .build-flex{
     width:550px;
     line-height: 22px;
 }
 .design-footer{
     position: relative;
-    left: -8.5%;
+    /* left: -8.5%; */
 }
 .footer{
     margin-top: 50px;
@@ -106,6 +112,11 @@ li{
   line-height: 30px;
   font-size: 14px;
   color: #111111;
+}
+.last-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 

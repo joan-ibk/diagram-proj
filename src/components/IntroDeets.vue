@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="main">
     <h2 id="intro">Introduce us to your team</h2>
     <div class="in-flex">
       <div class="inflex-row">
@@ -73,7 +73,7 @@
         TestFlight apps from developers.
       </p>
     </div>
-  </div>
+</div>
 </template>
 
 
@@ -84,8 +84,6 @@
 #imgOne {
   width: 630px;
   height: 472.5px;
-  gap: 0px;
-  opacity: 0px;
 }
 
 .in-flex {
