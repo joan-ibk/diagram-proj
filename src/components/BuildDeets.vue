@@ -125,7 +125,7 @@ li {
     margin-left: auto;
   }
  .build-deets{
-    /* width: 300px; */
+    width: 400px;
  }
  .design-footer {
     width: 400px;
