@@ -153,14 +153,14 @@ export default {
   margin: auto;
 }
 #proj-flex {
-  margin-left: 40px;
+  margin-left: 20px;
   color: #111111;
   font-weight: 500;
   font-size: 16px;
 }
 #proj-inflex {
   width: 500px;
-  margin-left: 40px;
+  margin-left: 20px;
   color: #111111;
   font-size: 14px;
   font-weight: 400;
@@ -191,7 +191,7 @@ export default {
   }
   .info-flex {
     padding: auto;
-    width: 400px;
+    width: 500px;
     /* margin-left: auto; */
   }
   

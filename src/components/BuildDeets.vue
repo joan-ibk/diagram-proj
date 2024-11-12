@@ -80,7 +80,7 @@
   padding: 20px;
 }
 .build-flex {
-  width: 550px;
+  width: 600px;
   padding: 20px;
   color: #111111;
   line-height: 25px;
@@ -89,6 +89,7 @@
 .design-footer {
   position: relative;
   font-size: 14px;
+  margin-left: 20px;
   /* left: -8.5%; */
 }
 .footer {
@@ -125,10 +126,10 @@ li {
     margin-left: auto;
   }
  .build-deets{
-    width: 400px;
+    width: 300px;
  }
  .design-footer {
-    width: 400px;
+    width: 300px;
 }
 }
 </style>
