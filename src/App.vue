@@ -47,7 +47,7 @@ export default {
   .container {
     width: 100%;
     flex-direction: column; /* Switch to column layout on small screens */
-    margin: 0px 0px 50px 50px;
+    margin: auto;
    
   }
 }

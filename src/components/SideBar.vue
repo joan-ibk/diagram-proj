@@ -496,8 +496,8 @@ export default {
   }
   .hamburger-menu {
     display: block;
-    left: 450px; /* Adjust the position to the right */
-    top: 20px; /* Adjust the top position */
+    left: 550px; /* Adjust the position to the right */
+    top: 40px; /* Adjust the top position */
   }
   .nav {
     width: 100px;

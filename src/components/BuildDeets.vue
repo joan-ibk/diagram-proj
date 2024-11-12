@@ -72,13 +72,14 @@
         <a href="#">Share</a>
     </div>
   </div>
+    
+ 
 </template>
 
 
-<style>
+<style scoped>
 .build-main{
-    margin: 40px;
-   
+    padding: 20px;
 }
 .build-flex{
     width:550px;
@@ -121,9 +122,9 @@ li{
 
 
 @media only screen and (max-width: 600px){
-    .build-flex{
-    width:380px;
-    /* line-height: 22px; */
-}  
+
+.build-main{
+    margin-left: auto;
+}
 }
 </style>

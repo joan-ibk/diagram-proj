@@ -19,68 +19,114 @@
   </div>
 </template>
 
+<style scoped>
+/* General Styles */
+.header {
+  padding: 20px;
+ 
+}
 
-
-<style scoped >
 img {
   width: 92px;
   height: 92px;
+  object-fit: cover;
 }
+
 h1 {
   font-weight: 400;
   line-height: 26px;
-  text-align: left;
   color: #111111;
-  font-size: 25px;
+  font-size: 1.6rem;
 }
+
 p,
 button {
   color: #555555;
 }
+
 .con-flex {
   display: flex;
   gap: 1.5rem;
   align-items: center;
-  width: Fill (540px) px;
-  height: Hug (92px) px;
-  padding: 0px 253.73px 0px 0px;
-}
-.con-inflex {
-  line-height: 10px;
-}
-#shaped {
-  border-radius: 15px;
-  height: 25px;
-  width: 100px;
-  outline: none;
-  border: none;
-}
-.con-info {
-  margin-top: 30px;
-  width: 540px;
-  height: 72px;
-  margin-bottom: 30px;
-}
-.con-info button {
-  padding: 8px;
-  border-radius: 15px;
-  margin: 10px;
-  background: #ffffff;
-  /* outline: none; */
-  border: 2px solid #eeeeee;
+  max-width: 100%;
+  /* padding: 0 1rem; */
+  /* text-align: left; */
 }
 
+.con-inflex {
+  display: flex;
+  flex-direction: column;
+  /* gap: 0.3rem; */
+}
+
+#shaped {
+  border-radius: 15px;
+  height: 30px;
+  width: 120px;
+  outline: none;
+  border: none;
+  background-color: #f0f0f0;
+  font-size: 0.9rem;
+}
+
+.con-info {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  width: 500px;
+}
+
+.con-info button {
+  padding: 8px 12px;
+  border-radius: 15px;
+  background: #ffffff;
+  border: 2px solid #eeeeee;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/* Responsive Adjustments */
 @media only screen and (max-width: 600px) {
-  .con-flex {
-    margin-left: 40px;
-    /* width: 400px; */
-    padding: 10px;
+  .header {
+  margin-left:auto;
   }
-  .con-info {
-    /* display: flex; */
-    width: 500px;
-    margin-left: 30px;
-    padding-left: 30px;
+
+  .con-flex {
+   
+    gap: 1rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  #shaped {
+    width: 100px;
+    font-size: 0.85rem;
+  }
+
+
+  .con-flex {
+    padding: 0 10px;
+  }
+
+  img {
+    width: 80px;
+    height: 80px;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .con-info button {
+    font-size: 0.8rem;
+    padding: 6px 10px;
   }
 }
 </style>
